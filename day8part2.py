@@ -1,4 +1,3 @@
-import numpy as np
 import math
 
 input = open("day8.txt", "r")
@@ -33,7 +32,6 @@ def getNext(current, command):
 
 repeatigInterval = []
 posCommanda = 0
-sum = 0
 
 for c in current:
     repeating = 0
@@ -60,5 +58,3 @@ for c in current:
     repeatigInterval.append(repeating)
 
 print(math.lcm(*repeatigInterval))
-
-

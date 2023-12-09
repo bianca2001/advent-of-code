@@ -1,5 +1,3 @@
-import linkedList
-
 input = open("day8.txt", "r")
 text = input.read()
 text = text.split('\n')
